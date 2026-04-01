@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Lookup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="world-map.png" type="image/png">
+</head>
+<body>
+    <main class="app">
+        <h1>Country Lookup</h1>
+
+        <input id="country-input" name="country" type="text" placeholder="Type a country and press Enter">
+
+        <img id="country-flag" hidden>
+
+        <section id="country-card" class="card" hidden>
+            <p><strong>Name:</strong> <span id="country-name"></span></p>
+            <p><strong>Population:</strong> <span id="country-population"></span></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
